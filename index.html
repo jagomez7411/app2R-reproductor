@@ -20,16 +20,23 @@
     	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
         <h1>Buscador de música</h1>
     </div>
-	<div id="busca">
-    	<div id="Buscador">
+	<div id="bus">
+    	<div id="Buscar">
 			<form method="get" action="http://www.google.com/search">
-        		<input type="search" name="q" results="5" placeholder="Busca tu cancion" required/>
-            	<button type="submit"><img src="imagenes/search.png" alt="lupa" height="64"></button>
+        		<input type="search" name="q" results="5" placeholder="Busca tu cancion en video" required/>
+            	<button type="submit"><img src="imagenes/video.png" height="64"/></button>
             	<input type="hidden" name="sitesearch" value="www.youtube.com"/>
         	</form>
      	</div>
 	</div>
-
+	<div id="des">
+    	<div id="Buscador"> 
+			<form method="get" action="http://wvw.simp3s.net/descargar-mp3/descargar-musica">
+            	<button type="submit"><img src="imagenes/descarga.png" height="64"></button>
+                <label>Descargar música</label>
+        	</form>
+     	</div>
+	</div>
 	<div id="imagen">
     <img src="imagenes/fondo.jpg">
     </div>
